@@ -1,0 +1,60 @@
+/* body
+{
+    background-color: red;
+} */
+#navbar
+{
+    flex-direction: column;
+}
+#navbar .box1 , .box2
+{
+margin: 2px auto;
+}
+
+#profile-container
+{
+    height: 890px;
+    flex-direction: column;
+}
+#profile-container::before
+{
+    height: 890px;
+}
+
+#profile-container #mypic
+{
+    height: 354px;
+    width: 142px;
+    display: block;
+    margin: 20px auto;
+}
+span{
+    margin-left:10px;
+}
+.image
+{
+    height: 57px; 
+}
+h2
+{
+    padding: 3px 10px;
+    font-family: 'Satisfy', cursive;
+    font-size: 23px;
+}
+h1
+{
+    padding: 5px 50px;
+    font-family: 'Satisfy', cursive;
+    font-size: 23px;
+}
+#quote h1
+{
+    margin: 0px 20px;
+}
+footer .box3 img
+{
+    height: 30px;
+    width: 30px;
+    margin: 5px 10px;
+}
+

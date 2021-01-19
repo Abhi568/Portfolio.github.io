@@ -1,0 +1,119 @@
+*
+{
+margin: 0px;
+box-sizing: border-box;
+}
+#navbar
+{
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kalam', cursive;
+    background-color: gray;
+    /* position: relative; */
+    
+}
+#navbar a:hover{
+    color: rgb(143, 107, 125);
+    background-color: black;
+    border-radius: 5px;
+    font-size: 23px;
+}
+.box1
+{
+    margin:15px 12px;
+    
+}
+#navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    
+}
+
+#navbar .box2{
+    position: absolute;
+    right: 10px;
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+}
+#navbar .box2 a img{
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    border: 1px solid white;
+}
+
+
+#profile-container
+{
+    border: 2px solid red;
+    display: flex;
+    font-family: 'Baloo 2', cursive;
+    width: 100%;
+    height: 800px;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+#profile-container .image
+{
+    display: flex;
+    flex-direction: row;
+justify-content: center;
+align-items: center;
+
+}
+#profile-container::before
+{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    background: url(../cv_pic/black3.jpg)  no-repeat center center/cover;
+    top:0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.9;
+    
+}
+#profile-container  img
+{
+    height: 28px;
+    width: 35px;
+    margin-left: 10px;
+}
+
+span{
+margin: 10px
+}
+
+ h2
+{
+    padding: 10px 80px;
+    font-family: 'Satisfy', cursive;
+    
+}
+
+ h1
+{
+    padding: 10px 50px;
+    font-family: 'Satisfy', cursive;
+}
+.center
+{
+    text-align: center;
+}
+
+/* #profile-container1 .image img
+
+{height: 30px;
+    width: 30px;
+
+} */
