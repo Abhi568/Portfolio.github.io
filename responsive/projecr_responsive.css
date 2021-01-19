@@ -1,0 +1,71 @@
+
+#navbar
+{
+    flex-direction: column;
+    height: 130px;
+}
+#navbar .box1 , .box2
+{
+margin: 1px auto;
+}
+.box1
+{
+    margin:-10px auto;
+}
+#navbar a{
+    font-size: 20px;
+}
+h1{
+    font-size: 23px;
+}
+strong
+{
+    color: violet;
+    font-size: 17px;
+    padding-left: 10px;
+}
+.description
+{
+    flex-direction: column;
+    padding: 5px;
+    font-size: 17spx;
+}
+
+.description p{
+    padding: 2px;
+    font-size: 19spx;
+
+}
+#project-container
+{
+    height: 4300px;
+    border: 2px solid red;;
+}
+#project-container .project1
+{
+    margin: 5px;
+    height: 1400px; 
+     width: 330px;
+}
+
+#project-container::before
+{
+    height: 4303px; 
+}
+
+#project-container .project1 img{
+    height: 160px;
+    width: 200px;
+    border-radius:5px;
+}
+.container2
+{
+    background-color: black;
+    height: 54px;
+}
+footer .box3 img
+{
+    height: 30px;
+    width: 30px;
+    margin: 5px 10px;
+}

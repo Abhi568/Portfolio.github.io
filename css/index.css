@@ -17,9 +17,15 @@ box-sizing: border-box;
 #navbar a:hover{
     color: rgb(143, 107, 125);
     background-color: black;
-    border-radius: 5px;
+    border-radius: 20%;
     font-size: 23px;
+    border-left: rgb(24, 100, 24);
+    border-bottom: rgb(104, 35, 23);
+    border-right: rgb(221, 221, 19);
+    border-top: blue;
+    border-style: solid;
 }
+
 .box1
 {
     margin:15px 12px;
@@ -168,5 +174,6 @@ footer .box3 img
 footer img:hover
 {
     border: 2px red solid;
+    border-radius: 50%;
     
 }

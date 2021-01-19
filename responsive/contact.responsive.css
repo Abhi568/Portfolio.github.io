@@ -1,0 +1,98 @@
+#navbar
+{
+    flex-direction: column;
+    height: 130px;
+}
+#navbar .box1 , .box2
+{
+margin: 1px auto;
+}
+.box1
+{
+    margin:-10px auto;
+}
+#navbar a{
+    font-size: 20px;
+}
+#profile-container #logo
+
+{
+    height: 100px;
+    width: 100px;
+}
+@keyframes Abhi {
+    0%
+    {
+        left:0px;
+        top:0px;
+        /* background-color: rgb(238, 253, 31); */
+        border-radius: 50%;
+        border: 2px solid green;
+        transform: rotate(34deg);
+        box-shadow:  8px 8px 2px rgb(202, 86, 86);
+    }
+    25%
+    {
+        left:50px;
+        top:0px;
+        border-radius: 50%;
+        border: 2px solid indigo;
+        transform: rotate3d();
+    }
+    75%
+    {
+        left:50px;
+        top:30px;
+        border-radius: 50%;
+        border: 2px solid firebrick;
+        transform: rotate3d();
+        box-shadow:  8px 8px 2px rgb(23, 172, 102);
+    }
+    100%
+    {
+        top:30px;
+        left: 0px;
+        border-radius: 50%x;
+        border: 2px solid yellow;
+        transform: rotate3d();
+    }
+
+
+}
+#profile-container
+{
+    height: 500px;
+    
+}
+#profile-container::before
+{
+    height: 500px;
+}
+/* #profilr-container .bottom
+{
+    margin-top:0px;
+} */
+h2
+{
+    padding: 3px 10px;
+    font-family: 'Satisfy', cursive;
+    font-size: 23px;
+}
+h1
+{
+    padding: 5px 50px;
+    /* font-family: 'Satisfy', cursive; */
+    font-size: 23px;
+}
+
+.container2
+{
+    background-color: black;
+    height: 54px;
+}
+footer .box3 img
+{
+    height: 30px;
+    width: 30px;
+    margin: 5px 10px;
+}

@@ -1,6 +1,6 @@
-*
-{
+*{
 margin: 0px;
+
 box-sizing: border-box;
 }
 #navbar
@@ -17,8 +17,13 @@ box-sizing: border-box;
 #navbar a:hover{
     color: rgb(143, 107, 125);
     background-color: black;
-    border-radius: 5px;
+    border-radius: 20%;
     font-size: 23px;
+    border-left: rgb(24, 100, 24);
+    border-bottom: rgb(104, 35, 23);
+    border-right: rgb(221, 221, 19);
+    border-top: blue;
+    border-style: solid;
 }
 .box1
 {
@@ -50,7 +55,7 @@ box-sizing: border-box;
 
 #profile-container
 {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     font-family: 'Baloo 2', cursive;
     width: 100%;
@@ -60,14 +65,6 @@ box-sizing: border-box;
     justify-content: center;
     align-items: center;
     color: white;
-
-}
-#profile-container .image
-{
-    display: flex;
-    flex-direction: row;
-justify-content: center;
-align-items: center;
 
 }
 #profile-container::before
@@ -83,11 +80,88 @@ align-items: center;
     opacity: 0.9;
     
 }
-#profile-container  img
+#profile-container #logo
+
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border-style: solid;
+    border-left: green;
+    border-bottom: tomato;
+    border-right: rgb(196, 196, 71);
+    border-top: blue;
+    /* border-radius: 1rem; */
+    border-style: solid;
+    box-shadow:  8px 8px 2px #313175;
+    position: relative;
+    animation-name: Abhi;
+    animation-duration: 5s; /* less time fast spped , less time slow speed*/
+    animation-iteration-count: 1;/*no. of times runs
+    /*animation-iteration-count: infinite; running continuously*/
+        animation-delay: s;
+    animation-timing-function: ease-in-out;
+
+}
+@keyframes Abhi {
+    0%
+    {
+        left:0px;
+        top:0px;
+        /* background-color: rgb(238, 253, 31); */
+        border-radius: 50%;
+        border: 2px solid green;
+        transform: rotate(34deg);
+        box-shadow:  8px 8px 2px rgb(202, 86, 86);
+    }
+    25%
+    {
+        left:255px;
+        top:0px;
+        border-radius: 50%;
+        border: 2px solid indigo;
+        transform: rotate3d();
+    }
+    75%
+    {
+        left:255px;
+        top:40px;
+        border-radius: 50%;
+        border: 2px solid firebrick;
+        transform: rotate3d();
+        box-shadow:  8px 8px 2px rgb(23, 172, 102);
+    }
+    100%
+    {
+        top:40px;
+        left: 0px;
+        border-radius: 50%x;
+        border: 2px solid yellow;
+        transform: rotate3d();
+    }
+
+}
+#profile-container .bottom
+{
+    display:flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    margin-top:30px;
+    /* border: 2px solid green; */
+    
+}
+#profile-container .bottom  img
 {
     height: 28px;
     width: 35px;
     margin-left: 10px;
+}
+#profile-container .image 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 span{
@@ -110,10 +184,32 @@ margin: 10px
 {
     text-align: center;
 }
-
-/* #profile-container1 .image img
-
-{height: 30px;
-    width: 30px;
-
-} */
+.container2
+{
+    background-color: black;
+    height: 80px;
+}
+footer {
+    background-color: black;
+    border: 2px dotted white;
+    /* border-style: double; */
+    display: flex;
+    border-radius: 45px;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0px 45px; */
+    /* background-color: /black; */
+  
+}
+footer .box3 img
+{
+    height: 50px;
+    width: 50px;
+    margin: 10px 30px;
+}
+footer img:hover
+{
+    border: 3px blue solid;
+    border-radius: 50%;
+    
+}

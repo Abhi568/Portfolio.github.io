@@ -1,0 +1,198 @@
+*{
+margin: 0px;
+box-sizing: border-box;
+}
+#navbar
+{
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kalam', cursive;
+    background-color: gray;
+    /* position: relative; */
+    
+}
+#navbar a:hover{
+    color: rgb(143, 107, 125);
+    background-color: black;
+    border-radius: 20%;
+    font-size: 23px;
+    border-left: rgb(24, 100, 24);
+    border-bottom: rgb(104, 35, 23);
+    border-right: rgb(221, 221, 19);
+    border-top: blue;
+    border-style: solid;
+}
+
+.box1
+{
+    margin:15px 12px;
+    
+}
+#navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    
+}
+
+#navbar .box2{
+    position: absolute;
+    right: 10px;
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+}
+#navbar .box2 a img{
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    border: 1px solid white;
+}
+i{
+    color:  rgb(207, 104, 104);;
+}
+
+#head1
+{
+    color: white;
+    font-family: 'Kalam', cursive;
+    font-size: 35px;
+}
+#project-container::before
+{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1880px;
+    background-color: black;
+    /* background: url(../cv_pic/black3.jpg)  no-repeat center center/cover; */
+    top:0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.8;
+    
+}
+#project-container
+{
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height:1880px;
+   width: 100%;
+   /* margin */
+   font-size: 20px;
+   font-family: 'Baloo Bhai 2', cursive;
+   position: relative;
+   /* border: 2px solid red; */
+   
+}
+#project-container .project1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px; 
+    /* border: 2px solid rgb(175, 110, 110); */
+    border-radius: 20px;
+    background-color: #141313;
+   border-left: springgreen;
+   border-top: red;
+   border-right: blue;
+   border-bottom: yellow;
+   border-style: solid;
+   border-width: 2px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(236, 144, 144); */
+}
+.heading h1
+{
+    padding:20px;
+    color: rgb(93, 71, 190);
+    /* box-shadow: whitesmoke; */
+}
+.description
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px; 
+    /* border: 2px solid green; */
+}
+.links
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 350px;
+    width: 1200px; */
+}
+strong
+{
+    color: violet;
+    font-size: 19px;
+    padding-left: 16px;
+}
+a{
+    padding: 10px;
+    color: white;
+    font-size: 17px;
+    color: turquoise;
+    
+}
+.description p{
+    padding: 20px;
+    font-size: 19spx;
+    color: white;
+    
+}
+#project-container .project1 img{
+    height: 230px;
+    width: 300px;
+    margin:10px;
+    border-radius:5px;
+}
+
+#project-container .project1:hover
+{
+    box-shadow: 10px 9px 2px rgb(212, 62, 62);  
+}
+.container2
+{
+    background-color: black;
+    height: 90px;
+    /* border-radius: 20px; */
+}
+footer {
+    background-color: black;
+    border: 2px dotted white;
+    /* border-style: double; */
+    display: flex;
+    border-radius: 45px;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0px 45px; */
+    /* background-color: /black; */
+  
+}
+footer .box3 img
+{
+    height: 50px;
+    width: 50px;
+    margin: 10px 30px;
+}
+footer img:hover
+{
+    border: 3px blue solid;
+    border-radius: 50%;
+    
+}
