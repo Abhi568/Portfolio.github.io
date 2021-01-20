@@ -33,7 +33,7 @@ box-sizing: border-box;
 #navbar a{
     text-decoration: none;
     color: white;
-    font-size: 25px;
+    font-size: 23px;
     
 }
 
@@ -97,9 +97,8 @@ box-sizing: border-box;
     position: relative;
     animation-name: Abhi;
     animation-duration: 5s; /* less time fast spped , less time slow speed*/
-    animation-iteration-count: 1;/*no. of times runs
-    /*animation-iteration-count: infinite; running continuously*/
-        animation-delay: s;
+    animation-iteration-count: 2;/*no. of times runs*/
+    animation-delay: s;
     animation-timing-function: ease-in-out;
 
 }
@@ -192,12 +191,10 @@ margin: 10px
 footer {
     background-color: black;
     border: 2px dotted white;
-    /* border-style: double; */
     display: flex;
     border-radius: 45px;
     justify-content: center;
     align-items: center;
-    /* margin: 0px 45px; */
     /* background-color: /black; */
   
 }
