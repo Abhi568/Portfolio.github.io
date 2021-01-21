@@ -81,7 +81,7 @@ transform: translateX(120px);
     font-size: 18px;
     height:770px;
     width: 100%;
-   font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Baloo Bhai 2', cursive;
     
 }
 #first-container::before
@@ -153,10 +153,9 @@ transform: translateX(120px);
     border-style: solid;
     border-radius: 10px;
     border-width: 3px;
-    margin: 30px 10px;
     margin: 30px 50px;
-   flex-direction: column;
-   font-weight: 100;
+    flex-direction: column;
+    font-weight: 100;
     font-size: 18px;
     background-color: #e0d7d7;
    font-family: 'Baloo Bhai 2', cursive; 
@@ -166,6 +165,10 @@ transform: translateX(120px);
     margin-bottom: 10px;
     position: relative;
     left: 76px;
+}
+ .heading h1
+{
+    font-family: 'Satisfy', cursive;
 }
 .center
 {
@@ -180,6 +183,7 @@ i{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 #second-heading p{
     padding:30px 203px;
