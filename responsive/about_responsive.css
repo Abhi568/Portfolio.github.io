@@ -48,8 +48,11 @@ transform: translateX(30px);
 }
 .description
 {
-    margin:0px 1px;
+    margin:0px -15px;
     order:2;
+    font-size: 14px;
+    font-family: 'Baloo Bhai 2', cursive;
+    
     /* display: block; */
 }
 .first-box1 image1
@@ -203,4 +206,5 @@ margin:3px;
     background-color: black;
     height: 180px;
     font-size: 13px;
+    font-family: 'Baloo Bhai 2', cursive;
 }
