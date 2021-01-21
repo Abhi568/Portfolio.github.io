@@ -61,13 +61,13 @@ transform: translateX(30px);
 {
     font-size:13px;
     width:300px;
-    height: 1215px;
+    height: 1315px;
     display: block;
     margin:-20px auto;
 }
 #first-container::before
 {
-    height:1200px;
+    height:1300px;
     /* position: relative; */
 }
 
@@ -140,7 +140,7 @@ margin:3px;
     border-bottom: white
 }
 .left_heading
-{    height: 516px;
+{    height: 659px;
     /* width: 112px; */
     /* display: block; */
     /* margin: 0px; */
@@ -156,7 +156,8 @@ margin:3px;
 
 .left_heading p1
 {
-    padding: 30px 0px;
+    padding: 6px 0px;
+    margin: 30px 0px;
     display: block;
 }
 .right_description
