@@ -293,10 +293,6 @@ transform:scale(1.2)
 
 .left_heading
 {
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; */
     margin:5px;
     /* border:2px slateblue solid; */
     height:200px;
@@ -326,7 +322,6 @@ transform:scale(1.2)
     padding:2px 0px;
 }
 
-
 .container2
 {
     background-color: black;
@@ -354,7 +349,6 @@ footer {
     justify-content: center;
     align-items: center;
     margin: 0px 500px;
-    /* background-color: /black; */
     
 }
 footer{
@@ -369,7 +363,7 @@ footer .box3 img
 }
 footer img:hover
 {
-    border: 2px red solid;
+    border: 2px blue solid;
     border-radius: 50%;
     
 }

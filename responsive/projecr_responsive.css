@@ -6,7 +6,11 @@
 }
 #navbar .box1 , .box2
 {
-margin: 1px auto;
+margin: -2px auto;
+}
+#navbar a
+{
+    font-size: 20px;
 }
 .box1
 {
