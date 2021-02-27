@@ -39,7 +39,7 @@ strong
 }
 #project-container
 {
-    height: 4300px;
+    height: 5809px;
 }
 #project-container .project1
 {
@@ -50,7 +50,7 @@ strong
 
 #project-container::before
 {
-    height: 4303px; 
+    height: 5820px; 
 }
 .heading , #head1
 {
