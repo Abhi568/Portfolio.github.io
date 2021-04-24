@@ -11,8 +11,7 @@ box-sizing: border-box;
     align-items: center;
     font-family: 'Kalam', cursive;
     background-color: gray;
-    /* position: relative; */
-    
+    /* position: relative; */ 
 }
 #navbar a:hover{
     color: rgb(143, 107, 125);
@@ -28,14 +27,13 @@ box-sizing: border-box;
 
 .box1
 {
-    margin:15px 12px;
-    
+    margin:15px 12px; 
 }
+
 #navbar a{
     text-decoration: none;
     color: white;
-    font-size: 23px;
-    
+    font-size: 23px; 
 }
 
 #navbar .box2{
@@ -46,12 +44,7 @@ box-sizing: border-box;
     justify-content: center;
     align-items: center;
 }
-#navbar .box2 a img{
-    height: 40px;
-    width: 40px;
-    margin-top: 10px;
-    border: 1px solid white;
-}
+
 #profile-container
 {
     /* border: 2px solid red; */
@@ -87,9 +80,7 @@ box-sizing: border-box;
     margin:10px 30px;
     justify-content: center;
     align-items: center;
-    color: white;
-    
-      
+    color: white;   
 }
 
 #profile-container #mypic
@@ -122,14 +113,15 @@ box-sizing: border-box;
 span{
 margin: 10px
 }
- h2
 
+
+ h2
 {
     padding: 10px 80px;
     font-family: 'Satisfy', cursive;
 }
- h1
 
+ h1
 {
     padding: 10px 50px;
     font-family: 'Satisfy', cursive;
@@ -161,7 +153,7 @@ margin: 10px
 footer {
     border: 2px dotted white;
     display: flex;
-    border-radius: 49px;
+    border-radius: 20px;
     justify-content: center;
     align-items: center;
     margin: 0px 500px;

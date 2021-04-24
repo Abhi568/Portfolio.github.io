@@ -3,15 +3,16 @@
 margin: 0px;
 box-sizing: border-box;
 }
+body{
+background-color: rgb(233, 216, 194);
+}
 #navbar
 {
     display: flex;
-    /* border: 2px solid red; */
     justify-content: center;
     align-items: center;
     font-family: 'Kalam', cursive;
-    background-color: gray;
-    /* position: relative; */
+    background-color: rgb(143, 138, 138);
     
 }
 #navbar a:hover{
@@ -42,15 +43,8 @@ box-sizing: border-box;
     position: absolute;
     right: 10px;
     display: flex;
-    /* border: 2px solid red; */
     justify-content: center;
     align-items: center;
-}
-#navbar .box2 a img{
-    height: 40px;
-    width: 40px;
-    margin-top: 10px;
-    border: 1px solid white;
 }
 .hr1
 {
@@ -72,7 +66,6 @@ transform: translateX(120px);
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    /* border: 2px solid red; */
     margin:0px 3px;
     position: relative;
     color: rgb(12, 11, 11);
@@ -89,8 +82,7 @@ transform: translateX(120px);
     content: "";
     left: 0px;
     top: 0px;
-    /* background: url('../cv_pic/cartoon.jpg') no-repeat center center/cover ; */
-    background-color: black;
+    background-color:#e7d6d6;
     z-index: -1;
     opacity: 0.3;
     width: 100%;
@@ -116,10 +108,7 @@ transform: translateX(120px);
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 2px solid red; */
     margin:10px 30px;
-    
-    /* margin:60px; */
 }
 .first-box1 img
 {
@@ -127,7 +116,6 @@ transform: translateX(120px);
     width: 120px;
     margin: 20px;
     border-radius: 20px;
-    /* border: 2px solid rgb(207, 46, 73); */
 }
 
 .description
@@ -140,9 +128,14 @@ transform: translateX(120px);
     /* border:2px solid green; */
     padding:20px;
 }
+.back_color
+{
+    background-color: #e4cfcf;
+
+}
 
 #second-container{
-/* {   visibility: hidden; */
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -158,8 +151,10 @@ transform: translateX(120px);
     font-weight: 100;
     font-size: 18px;
     background-color: #e0d7d7;
-   font-family: 'Baloo Bhai 2', cursive; 
+    font-family: 'Baloo Bhai 2', cursive; 
+
 }
+
 #second-container a{
     color: brown;
     margin-bottom: 10px;
@@ -187,7 +182,6 @@ i{
 }
 #second-heading p{
     padding:30px 203px;
-    /* border:2px solid red; */
 }
 #second-image
 {
@@ -198,7 +192,6 @@ i{
 #second-container .img1
 {
     margin: 30px;
-    /* border: 2px solid rgb(27, 18, 4); */
     border-radius: 20px;
 }
 #second-container img
@@ -215,7 +208,6 @@ i{
     height: 300px;
     width:200px;
     margin:5px;
-
     border-left: green;
     border-bottom: rgb(148, 19, 109);
     border-right: blue;
@@ -263,7 +255,6 @@ i{
 {   display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 2px yellow solid; */
     margin: 20px;
 
 }
@@ -294,7 +285,6 @@ transform:scale(1.2)
 .left_heading
 {
     margin:5px;
-    /* border:2px slateblue solid; */
     height:200px;
     width: 140px;
     
@@ -314,7 +304,6 @@ transform:scale(1.2)
     flex-direction: column;
     align-items: center;
     margin:5px;
-    /* border: sprsinggreen 2px solid; */
     height:200px;
     width: 573px;
 }
@@ -343,9 +332,8 @@ transform:scale(1.2)
 
 footer {
     border: 2px dotted white;
-    /* border-style: double; */
     display: flex;
-    border-radius: 49px;
+    border-radius: 20px;
     justify-content: center;
     align-items: center;
     margin: 0px 500px;
@@ -353,7 +341,6 @@ footer {
 }
 footer{
     margin:10px;
-    /* border:2px green solid; */
 }
 footer .box3 img
 {

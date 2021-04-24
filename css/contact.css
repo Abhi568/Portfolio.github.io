@@ -45,13 +45,6 @@ box-sizing: border-box;
     justify-content: center;
     align-items: center;
 }
-#navbar .box2 a img{
-    height: 40px;
-    width: 40px;
-    margin-top: 10px;
-    border: 1px solid white;
-}
-
 
 #profile-container
 {
@@ -98,7 +91,7 @@ box-sizing: border-box;
     animation-name: Abhi;
     animation-duration: 5s; /* less time fast spped , less time slow speed*/
     animation-iteration-count: 2;/*no. of times runs*/
-    animation-delay: s;
+    animation-delay: 1s;
     animation-timing-function: ease-in-out;
 
 }
@@ -192,7 +185,7 @@ footer {
     background-color: black;
     border: 2px dotted white;
     display: flex;
-    border-radius: 45px;
+    border-radius: 20px;
     justify-content: center;
     align-items: center;
     /* background-color: /black; */
