@@ -58,14 +58,13 @@ box-sizing: border-box;
     justify-content: center;
     align-items: center;
     color: white;
-
 }
 #profile-container::before
 {
     content: "";
     position: absolute;
     width: 100%;
-    height: 800px;
+    height: 880px;
     background: url(../cv_pic/black3.jpg)  no-repeat center center/cover;
     top:0px;
     left: 0px;
@@ -89,7 +88,7 @@ box-sizing: border-box;
     box-shadow:  8px 8px 2px #313175;
     position: relative;
     animation-name: Abhi;
-    animation-duration: 5s; /* less time fast spped , less time slow speed*/
+    animation-duration: 5s; /* less time fast speed , less time slow speed*/
     animation-iteration-count: 2;/*no. of times runs*/
     animation-delay: 1s;
     animation-timing-function: ease-in-out;
@@ -100,7 +99,6 @@ box-sizing: border-box;
     {
         left:0px;
         top:0px;
-        /* background-color: rgb(238, 253, 31); */
         border-radius: 50%;
         border: 2px solid green;
         transform: rotate(34deg);
@@ -131,7 +129,6 @@ box-sizing: border-box;
         border: 2px solid yellow;
         transform: rotate3d();
     }
-
 }
 #profile-container .bottom
 {
@@ -139,9 +136,7 @@ box-sizing: border-box;
     flex-direction: column;
     justify-content:center ;
     align-items: center;
-    margin-top:30px;
-    /* border: 2px solid green; */
-    
+    margin-top:30px;  
 }
 #profile-container .bottom  img
 {
@@ -156,15 +151,15 @@ box-sizing: border-box;
     align-items: center;
 }
 
-span{
+span
+{
 margin: 10px
 }
 
  h2
 {
     padding: 10px 80px;
-    font-family: 'Satisfy', cursive;
-    
+    font-family: 'Satisfy', cursive;  
 }
 
  h1
@@ -176,21 +171,17 @@ margin: 10px
 {
     text-align: center;
 }
-.container2
+
+footer 
 {
-    background-color: black;
-    height: 80px;
-}
-footer {
     background-color: black;
     border: 2px dotted white;
     display: flex;
     border-radius: 20px;
     justify-content: center;
     align-items: center;
-    /* background-color: /black; */
-  
 }
+
 footer .box3 img
 {
     height: 50px;

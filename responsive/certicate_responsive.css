@@ -21,7 +21,7 @@ margin: 1px auto;
 }
 
 #container::before {
-        height: 340vh;    
+        height: 376vh;    
 }
 .container1
 {
@@ -34,8 +34,8 @@ width: 230px;
 margin:5px;
 }
  .contain1 img{
-    width: 229px;
-    height: 229px;
+    width: 220px;
+    height: 220px;
     transition: all 1s ease-in-out;
     
 }
@@ -55,9 +55,9 @@ footer {
 }
 footer .box3 img
 {
-    height: 50px;
-    width: 50px;
-    margin: 10px 10px;
+    height: 30px;
+    width: 38px;
+    margin: 9px 20px;
 }
 footer img:hover
 {

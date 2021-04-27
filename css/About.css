@@ -314,7 +314,7 @@ transform:scale(1.2)
 .container2
 {
     background-color: black;
-    height: 209px;
+    height: 193px;
 }
 #quote
 {
@@ -340,7 +340,7 @@ footer {
     
 }
 footer{
-    margin:10px;
+    margin:10px 1px ;
 }
 footer .box3 img
 {

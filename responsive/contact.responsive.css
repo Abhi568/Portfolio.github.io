@@ -65,7 +65,7 @@ margin: 1px auto;
 }
 #profile-container::before
 {
-    height: 500px;
+    height: 550px;
 }
 
 h2
@@ -77,15 +77,10 @@ h2
 h1
 {
     padding: 5px 50px;
-    /* font-family: 'Satisfy', cursive; */
     font-size: 23px;
 }
 
-.container2
-{
-    background-color: black;
-    height: 54px;
-}
+
 footer .box3 img
 {
     height: 30px;
