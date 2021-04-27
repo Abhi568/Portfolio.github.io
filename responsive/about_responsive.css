@@ -55,13 +55,13 @@ background-color: brown;
 {
     font-size:13px;
     width:300px;
-    height: 1290px;
+    height: 990px;
     display: block;
     margin:-20px auto;
 }
 #first-container::before
 {
-    height:1100px;
+    height:900px;
 }
 
 
