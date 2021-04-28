@@ -141,7 +141,7 @@ margin:3px;
 .left_heading p1
 {
     padding: 6px 0px;
-    margin: 30px 0px;
+    margin: 50px 0px;
     display: block;
 }
 .right_description
@@ -154,7 +154,9 @@ margin:3px;
         top: -192px;
         bottom: 10px;
         position: sticky;
-
+}
+.right_description strong {
+    padding: 2px 3px;
 }
 
 #quote h1
