@@ -39,18 +39,18 @@ strong
 }
 #project-container
 {
-    height: 5809px;
+    height: 5556px;
 }
 #project-container .project1
 {
     margin: 5px;
-    height: 1525px; 
+    height: 1527px; 
     width: 330px;
 }
 
 #project-container::before
 {
-    height: 5860px; 
+    height: 5611px; 
 }
 .heading , #head1
 {
