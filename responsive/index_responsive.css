@@ -22,7 +22,7 @@ margin: 1px auto;
 }
 #profile-container::before
 {
-    height: 890px;
+    height: 894px;
 }
 
 #profile-container #mypic
@@ -63,7 +63,7 @@ h1
 }
 footer .box3 img
 {
-    height: 30px;
+    height: 33px;
     width: 30px;
     margin: 5px 10px;
 }
