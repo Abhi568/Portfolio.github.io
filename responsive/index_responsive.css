@@ -17,7 +17,7 @@ margin: 1px auto;
 }
 #profile-container
 {
-    height: 890px;
+    height: 894px;
     flex-direction: column;
 }
 #profile-container::before
