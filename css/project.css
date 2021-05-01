@@ -179,6 +179,9 @@ strong
     font-size: 19px;
     padding-left: 16px;
 }
+strong a:hover{
+    color: rgb(206, 139, 38);
+}
 .description p  {
     padding: 20px;
     font-size: 19px;
@@ -196,7 +199,15 @@ strong
 {
     box-shadow: 10px 9px 2px rgb(212, 62, 62);  
 }
+.heading , #head1
+{
+    transition: all 1s ease-in-out;
+}
 
+.heading:hover , #head1:hover{
+    cursor: pointer;
+transform: translateX(40px);
+}
 footer {
     margin-top: -60px;
     display: flex;
@@ -205,8 +216,7 @@ footer {
     align-items: center;
     width: 100%;
     border:2px dotted white;
-    border-radius: 20px;
-    /* margin-bottom: 10px; */
+    border-radius: 10px;
     background: black;
 
 }
