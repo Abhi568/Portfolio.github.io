@@ -1,99 +1,137 @@
 *
 {
 margin: 0px;
+padding: 0px;
 box-sizing: border-box;
+text-decoration: none;
+}
+#container {
+    top:0px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 60px;
+    position:fixed;
+    width: 100%;
+    background-color:black;
+    z-index: 1;
+    
 }
 
-#navbar
-{
+#first {
     display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
     align-items: center;
-    font-family: 'Kalam', cursive;
-    background-color: rgb(147 142 142);
-    
-}
-#navbar a:hover{
-    color: rgb(143, 107, 125);
-    background-color: black;
-    border-radius: 20%;
-    font-size: 23px;
-    border-left: rgb(24, 100, 24);
-    border-bottom: rgb(104, 35, 23);
-    border-right: rgb(221, 221, 19);
-    border-top: blue;
-    border-style: solid;
-}
+    flex-wrap: wrap;
+    opacity: 0.9;
 
-.box1
+}
+#click1
 {
-    margin:15px 0px;
-    
+    display: none;
 }
 
-#navbar a{
-    text-decoration: none;
+.navbar {
     color: white;
-      font-size: 23px;
+    margin: 0px 60px;
+    background-color: rgb(54, 52, 52);
+    border:2px solid black;
+    border-radius: 10px;
+    padding: 6px;
+    cursor: pointer;
 }
-
-#navbar .box2{
-    position: absolute;
-    right: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-i{
-    color:  rgb(207, 104, 104);;
-}
-
-.heading , #head1
+.navbar:hover
 {
-    transition: all 1s ease-in-out;
+    background-color: rgb(192, 177, 206);
 }
-
-.heading:hover , #head1:hover
+a, #head1
 {
-transform: translateX(120px);
+    color: white;
 }
-
 #head1
 {
-    color: white;
-    font-family: 'Kalam', cursive;
-    font-size: 35px;
+    font-size: 30px;
+    margin: 20px;
+}
+a:hover{
+    color: black;
+}
+
+#burger {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: none;
+    right: 30px;
+}
+
+.line {
+    height: 3px;
+    margin: 2px;
+    width: 26px;
+    background-color: white
+}
+
+@media(max-width:1000px) {
+    #first {
+        top: 140px;
+        width: 100%;
+        position: relative;
+        flex-direction: column;
+        height: 230px;
+        background-color:black;
+        justify-content: center;
+        align-items: center;
+        left: -100%;
+        transition: 2s ease-in-out;
+    }
+    .navbar
+    {
+        font-size: small;
+        margin: 5px 0px;
+    }
+
+    #burger {
+        display: block;
+    }
+
+    #click1
+    {
+        display: none;
+    }
+
+    #container {
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        background-color: black
+    }
+
+    #click1:checked ~ #first {
+        left: 0%;
+    }
 }
 
 #project-container
 {
    display:flex;
+   flex-wrap: wrap;
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   height:2300px;
-   width: 100%;
+   height:auto;
    font-size: 20px;
-   font-family: 'Baloo Bhai 2', cursive;
+   margin: 60px 0px;
    position: relative;
-   
+   font-family: 'Baloo Bhai 2', cursive;
+   background: black;
 }
-
-#project-container::before
-{
-    content: "";
-    width: 100%;
-    height: 2382px;
-    background-color: black;
-    top:0px;
-    left: 0px;
-    z-index: -1;
-    opacity: 0.8;
-    position: absolute;
-    
-}
-
 #project-container .project1
 {
     display: flex;
@@ -118,6 +156,7 @@ transform: translateX(120px);
 .heading h1
 {
     padding:20px;
+    font-size: 28px;
     color: rgb(93, 71, 190);
 }
 .description
@@ -140,16 +179,9 @@ strong
     font-size: 19px;
     padding-left: 16px;
 }
-a{
-    padding: 1px 10px;
-    color: white;
-    font-size: 17px;
-    color: turquoise;
-    
-}
-.description p{
+.description p  {
     padding: 20px;
-    font-size: 19spx;
+    font-size: 19px;
     color: white;
     
 }
@@ -166,19 +198,32 @@ a{
 }
 
 footer {
-    background-color: black;
-    border: 2px dotted white;
+    margin-top: -60px;
     display: flex;
-    border-radius: 20px;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-  
+    width: 100%;
+    border:2px dotted white;
+    border-radius: 20px;
+    /* margin-bottom: 10px; */
+    background: black;
+
+}
+footer .box3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    margin: 0px 30px;
 }
 footer .box3 img
 {
-    height: 50px;
-    width: 50px;
-    margin: 10px 30px;
+    display: block;
+    height: 40px;
+    width: 40px;
 }
 footer img:hover
 {

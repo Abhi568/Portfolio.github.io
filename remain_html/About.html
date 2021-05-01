@@ -9,28 +9,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Kalam&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Satisfy&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/About.css">
-    <link rel="stylesheet" media="screen and (max-width:  1250px)" href="../responsive/about_responsive.css">
+    <link rel="stylesheet" media="screen and (max-width:  950px)" href="../responsive/about_responsive.css">
 </head>
 
 <body>
-    <div id="navbar">
-        <div class="box1">
-            <a href="../index.html"> &#128522; Home</a>
+    <div id="container">
+        <input type="checkbox" id="click1">
+        <div id="first" class="nav">
+            <div class="navbar">
+                <a href="../index.html">Home</a>
+            </div>
+            <div class="navbar"><a href="About.html">About me</a></div>
+            <div class="navbar"><a href="project.html">Projects</a></div>
+            <div class="navbar"><a href="contact.html">Contact me</a></div>
+            <div class="navbar"><a href="certificates.html">Certificates</a></div>
         </div>
-        <div class="box1">
-            <a href="#">About me</a>
-        </div>
-        <div class="box1">
-            <a href="../remain_html/contact.html">Contact me</a>
-        </div>
-        <div class="box1">
-            <a href="../remain_html/project.html">Projects</a>
-        </div>
-        <div class="box2">
-            <p> &#9889;</p>
-            <p> <a href="../remain_html/certificates.html">Certificates</a></p>
-        </div>
+        <div id="burger" onclick="click2()">
+            <hr class="line">
+            <hr class="line">
+            <hr class="line">
 
+        </div>
+    </div>
     </div>
     <div id="first-container">
         <div class="heading">
@@ -44,7 +44,7 @@
             </div>
             <div class="description">
                 <p>
-                    Hii , &#128516 I am a very <i>Cheerful boy</i> and used to smile .I always try to make myself happy
+                    Hii , &#128516 I am a<i>Cheerful boy</i> and used to smile .I always try to make myself happy
                     and never let
                     myself down but When I was kid , I
                     never paid attention towards my studies because I had my own dreams and works and I
@@ -59,7 +59,7 @@
                     explore myself .</p>
             </div>
         </div>
-        <hr class="hr1">
+        <!-- <hr class="hr1"> -->
         <div class="first-box1">
             <div class="description">
                 <p>But <b> Time changes everything </b>, during school time that was my first time when I had led a team
@@ -77,7 +77,7 @@
             </div>
 
         </div>
-        <hr class="hr1">
+        <!-- <hr class="hr1"> -->
         <div class="first-box1">
             <div class="image1">
                 <img src="../cv_pic/cart3.jpg" alt="">
@@ -93,8 +93,7 @@
                 </p>
             </div>
         </div>
-        <hr class="hr1">
-        <!-- <hr style="color: black; width: 1400px ; height: 4px; background-color: brown;"> -->
+
     </div>
     <div class="back_color">
         <div id="second-container">
@@ -112,18 +111,21 @@
                 </p>
             </div>
             <div id="second-image">
-                <div class="img1">
-                    <img src="../cv_pic/paint1.jpg" alt="">
+                <div class="container_image">
+                    <div class="img1">
+                        <img src="../cv_pic/paint1.jpg" alt="">
+                    </div>
+                    <div class="img1">
+                        <img src="../cv_pic/paint2.jpg" alt="">
+                    </div>
                 </div>
-                <div class="img1">
-                    <img src="../cv_pic/paint2.jpg" alt="">
-                </div>
-                <div class="img1"><img src="../cv_pic/paint3.jpg" alt="">
-                </div>
-                <div class="img1"><img src="../cv_pic/paint5.jpg" alt="">
+                <div class="container_image">
+                    <div class="img1"><img src="../cv_pic/paint3.jpg" alt="">
+                    </div>
+                    <div class="img1"><img src="../cv_pic/paint5.jpg" alt="">
+                    </div>
                 </div>
             </div>
-
             <a class="center"
                 href="https://drive.google.com/drive/folders/1NIlNdGU9kfOIjeSPrN9H2n_Cnh3KxlsK?usp=sharing">
                 &#128064 for
@@ -131,7 +133,8 @@
 
         </div>
     </div>
-    <div class="back_color">
+
+    
         <div id="third-container">
             <div class="heading">
                 <h1> Skills</h1>
@@ -144,27 +147,26 @@
                             src="../cv_pic/resume_pic.png" alt="resume pic"></a>
                 </div>
                 <div id="right">
-                    <div class="left_heading">
-                        <p1> High School:</p1>
-                        <p1>Intermediate:</p1>
-                        <p1>University:</p1>
-                        <p1>Skills:</p1>
-                    </div>
-                    <!-- <div style="border-left: 2px solid black; border-right: 2px dashed green; width: 70em;"></div> -->
                     <div class="right_description">
-                        <strong>Patriot Inter College , Unnao (2014-2015)<i>86%</i></strong>
-                        <strong>Patriot Inter College , Unnao (2015-2017)<i>87%</i></strong>
-                        <strong>Lovely Professional University, (2018-2022) <i>8.01cgpa .</i></strong>
-                        <strong>1) Html , Css , Javascript  2) Android development  3) Networking , Oracle(Dbms) ,
-                            Operating system  4) Linux , Windows 5) Python , Java  6) Analytical skills 7)Leadership
-                            skills</strong>
-
-
+                        <strong>
+                            <i>High School:</i> Patriot Inter College , Unnao (2014-2015)<i>86%</i></p1>
+                        </strong>
+                        <strong>
+                            <i>Intermediate:</i> Patriot Inter College , Unnao (2015-2017)<i>87%</i>
+                        </strong>
+                        <strong>
+                            <i>University :</i> Lovely Professional University, (2018-2022) <i>8.01cgpa<br></i>
+                        </strong>
+                        <strong>
+                            <i>Skills: :</i> 1) Html , Css , Javascript 2) Android development 3) Networking ,
+                                Oracle(Dbms) ,
+                                Operating system 4) Linux ,Windows 5) Python , Java 6) Analytical skills 7) Leadership
+                                skills
+                        </strong>
                     </div>
                 </div>
-            </div>
         </div>
-    </div>
+    </div> 
     <div class="container2">
         <div id="quote">
             <h1>Never let your hope down because it makes you what ,that can't be made by oneone - &#9997;</h1>
@@ -185,7 +187,8 @@
                 <a href="https://github.com/Abhi568"> <img src="../cv_pic/github.png" alt=""></a>
             </div>
         </footer>
-    </div>
+    </div> 
+    <script src="../jss_files/js_file.js"></script>
 
 </body>
 

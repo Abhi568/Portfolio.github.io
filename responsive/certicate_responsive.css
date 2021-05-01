@@ -1,27 +1,11 @@
-
-#navbar
+*
 {
-    flex-direction: column;
-    height: 130px;
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
 }
-#navbar .box1 , .box2
-{
-margin: 1px auto;
-}
-.box1
-{
-    margin:-10px auto;
-}
- #container 
-{
-    height:auto ;
-}  
-#navbar a{
-    font-size: 20px;
-}
-
 #container::before {
-        height: 2409px;   
+        height: 2628px;    
 }
 .container1
 {
@@ -31,7 +15,7 @@ margin: 1px auto;
 .contain1{
 height: 230px;
 width: 230px;
-margin:5px;
+margin:35px auto 10px auto;
 }
  .contain1 img{
     width: 220px;
@@ -48,6 +32,7 @@ footer {
     background-color: black;
     border: 2px dotted white;
     display: flex;
+    height: 50px;
     border-radius: 20px;
     justify-content: center;
     flex-direction: row;
@@ -56,7 +41,7 @@ footer {
 footer .box3 img
 {
     height: 30px;
-    width: 38px;
+    width: 30px;
     margin: 9px 20px;
 }
 footer img:hover

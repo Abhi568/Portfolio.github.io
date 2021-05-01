@@ -1,57 +1,122 @@
 *
 {
 margin: 0px;
+padding: 0px;
 box-sizing: border-box;
+text-decoration: none;
 }
-#navbar
+a
 {
-    display: flex;
-    /* border: 2px solid red; */
-    justify-content: center;
-    align-items: center;
-    font-family: 'Kalam', cursive;
-    background-color: gray;
-    /* position: relative; */ 
-}
-#navbar a:hover{
-    color: rgb(143, 107, 125);
-    background-color: black;
-    border-radius: 20%;
-    font-size: 23px;
-    border-left: rgb(24, 100, 24);
-    border-bottom: rgb(104, 35, 23);
-    border-right: rgb(221, 221, 19);
-    border-top: blue;
-    border-style: solid;
-}
-
-.box1
-{
-    margin:15px 12px; 
-}
-
-#navbar a{
-    text-decoration: none;
     color: white;
-    font-size: 23px; 
+}
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 60px;
+    position:fixed;
+    width: 100%;
+    background-color:black;
+    z-index: 1;
 }
 
-#navbar .box2{
-    position: absolute;
-    right: 10px;
+#first {
     display: flex;
-    /* border: 2px solid red; */
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    
+    opacity: 0.9;
+
+}
+#click1
+{
+    display: none;
+}
+
+.navbar {
+    color: white;
+    margin: 0px 60px;
+    background-color: rgb(54, 52, 52);
+    border:2px solid black;
+    border-radius: 10px;
+    padding: 6px;
+    cursor: pointer;
+}
+.navbar:hover
+{
+    background-color: rgb(192, 177, 206);
+    
+}
+a:hover{
+color: black;
+}
+#burger {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    display: none;
+    right: 30px;
+}
+
+.line {
+    height: 3px;
+    margin: 2px;
+    width: 26px;
+    background-color: white
+}
+
+@media(max-width:1000px) {
+    #first {
+        top: 144px;
+        width: 100%;
+        position: relative;
+        flex-direction: column;
+        height: 230px;
+        background-color:black;
+        justify-content: center;
+        align-items: center;
+        left: -100%;
+        transition: 2s ease-in-out;
+    }
+    .navbar
+    {
+        font-size: small;
+        margin: 5px 0px;
+    }
+
+    #burger {
+        display: block;
+    }
+
+    #click1
+    {
+        display: none;
+    }
+
+    #container {
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        background-color: black
+    }
+
+    #click1:checked ~ #first {
+        left: 0%;
+    }
 }
 
 #profile-container
 {
-    /* border: 2px solid red; */
     display: flex;
     font-family: 'Baloo 2', cursive;
     width: 100%;
-    height: 800px;
+    height: 900px;
     position: relative;
 
 }
@@ -60,20 +125,15 @@ box-sizing: border-box;
     content: "";
     position: absolute;
     width: 100%;
-    height: 800px;
+    height: 900px;
     background: url(../cv_pic/black4.jpg)  no-repeat center center/cover;
     top:0px;
     left: 0px;
     z-index: -1;
-    /* opacity: 0.9; */
     
 }
 .text{
     
-    /* padding: 0px 75px; */
-    /* width:400px;
-    height: 530px; */
-    /* border: 2px dotted gray; */
     border-radius: 17px;
     display: flex;
     flex-direction: column;
@@ -87,8 +147,7 @@ box-sizing: border-box;
 {
     width: 300px;
     height: 704px;
-    margin: 34px 150px;
-    /* border: 2px green solid; */
+    margin: 80px 150px;
     border-radius: 200px;
     transition: all 1s ease-in-out;
     
@@ -133,7 +192,7 @@ margin: 10px
 .container2
 {
     background-color: black;
-    height: 197px;
+    height: 181px;
 }
 #quote
 {
@@ -152,18 +211,16 @@ footer {
     display: flex;
     border-radius: 20px;
     justify-content: center;
-    align-items: center;
-    margin: 0px 500px;
-    /* background-color: /black; */
-    
+    align-items: center; 
 }
 footer{
     margin:10px 1px;
+    height: 60px;
 }
 footer .box3 img
 {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     margin: 10px 30px;
 }
 footer img:hover

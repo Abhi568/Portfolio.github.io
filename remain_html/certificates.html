@@ -14,31 +14,28 @@
 </head>
 
 <body>
-    <div id="navbar">
-
-        <div class="box1">
-            <a href="../index.html"> &#128522; Home</a>
+    <div id="container_nav">
+        <input type="checkbox" id="click1">
+        <div id="first_nav" class="nav">
+            <div class="navbar">
+                <a href="../index.html">Home</a>
+            </div>
+            <div class="navbar"><a href="About.html">About me</a></div>
+            <div class="navbar"><a href="project.html">Projects</a></div>
+            <div class="navbar"><a href="contact.html">Contact me</a></div>
+            <div class="navbar"><a href="certificates.html">Certificates</a></div>
         </div>
-        <div class="box1">
-            <a href="../remain_html/About.html">About me</a>
-        </div>
-        <div class="box1">
-            <a href="../remain_html/contact.html">Contact me</a>
-        </div>
-        <div class="box1">
-            <a href="../remain_html/project.html">Projects</a>
-        </div>
-        <div class="box2">
-            <p> &#9889;</p>
-            <p> <a href="../remain_html/certificates.html">Certificates</a></p>
+        <div id="burger" onclick="click2()">
+            <hr class="line">
+            <hr class="line">
+            <hr class="line">
 
         </div>
     </div>
     <div id="container">
-        <div class="container1">
+        <div class="container1 containers1">
             <div class="contain1" id="first"><img src="../certificate/GFG_DS.jpg" alt=""></div>
             <div class="contain1" id="second"><img src="../certificate/basic_python.jpg" alt=""></div>
-
             <div class="contain1" id="third"><img src="../certificate/Programming_for_everybody.jpg" alt=""></a></div>
         </div>
         <div class="container1">
@@ -68,7 +65,7 @@
     </footer>
 
 
-
+<script src="../jss_files/js_file.js"></script>
 
 </body>
 

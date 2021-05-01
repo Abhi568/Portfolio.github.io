@@ -1,28 +1,18 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 
-#navbar
-{
-    flex-direction: column;
-    height: 130px;
-}
-#navbar .box1 , .box2
-{
-margin: 1px auto;
-}
-.box1
-{
-    margin:-10px auto;
-}
-#navbar a{
-    font-size: 20px;
 }
 #profile-container
 {
-    height: 894px;
+    height: 875px;
     flex-direction: column;
 }
 #profile-container::before
 {
-    height: 894px;
+    height: 875px;
 }
 
 #profile-container #mypic
@@ -30,7 +20,7 @@ margin: 1px auto;
     height: 354px;
     width: 142px;
     display: block;
-    margin: 20px auto;
+    margin: 102px auto 0px auto;
 }
 span{
     margin-left:10px;
@@ -43,27 +33,30 @@ h2
 {
     padding: 3px 10px;
     font-family: 'Satisfy', cursive;
-    font-size: 18px;
+    font-size: 13px;
 }
 h1
 {
-    padding: 5px 50px;
     font-family: 'Satisfy', cursive;
-    font-size: 18px;
+    font-size: 13px;
 }
-#quote h1
+.container2 #quote h1
 {
-    margin: 0px 20px;
-    font-size: 18px;
+    margin: 0px 10px;
+    font-size: 13px;
+    padding:10px;
 
 }
 .container2 {
     background-color: black;
-    height: 174px;
+    height: 112px;
+}
+footer{
+    height: 40px;
 }
 footer .box3 img
 {
-    height: 38px;
+    height: 30px;
     width: 30px;
     margin: 5px 10px;
 }

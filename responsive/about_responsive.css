@@ -1,11 +1,8 @@
-#navbar
+*
 {
-    flex-direction: column;
-    height: 130px;
-}
-#navbar .box1 , .box2
-{
-margin: 1px auto;
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 .box1
 {
@@ -23,57 +20,35 @@ height: 2px;
 background-color: brown;
 }
 
-#navbar a{
-    font-size: 20px;
-}
-
+ 
 .first-box1
 {
-    flex-direction: column;
-    margin:1px 3px;
+    margin:1px;
 }
 .first-box1 img
 {
     height:100px;
     width: 90px;
-    margin:2px;
+    margin:0px 6px;
 }
 .description
 {
-    margin: -17px -20px;
+
     order: 2;
     font-size: 15px;
+    padding:0px;
     font-family: 'Baloo Bhai 2', cursive;
-}
-
-.first-box1 image1
-{
-    order:1
-}
-#first-container
-
-{
-    font-size:13px;
-    width:300px;
-    height: 1170px;
-    display: block;
-    margin:-20px auto;
-}
-#first-container::before
-{
-    height:1170px;
 }
 
 
 #second-container
 {
-    margin:0px 0px ;
-    font-size: 13px;
-    height:1050px;
-    width: 300px;
-    display: block;
-    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
+
 #second-heading
 {
     display: block;
@@ -92,80 +67,43 @@ background-color: brown;
 height: 200px;
 width:150px;
 margin:3px;
-}
-#second-image
-{
-    flex-direction: column;
-}
-#skills
-{
-    
-        height: 800px;
-        display: block;
-        flex-direction: column;
-    
-}
-#third-container
-{
-    height: 847px;
-    width: 300px;
-    margin:5px auto;
-    font-size: 15px;
-}
+
+} 
 #left img{
-    height:200px;
-    width:200px;
-    margin: 2px;
+    margin:0px  10px;
 }
 #left
 {   
-    margin: 2px;
+    margin: 0px;
 }
 #right
 {
-    margin: 2px;
-    height: 565px;
-    width: 300px;
-    position: relative;
+    margin: 30px auto;
     border-bottom: white
-}
-.left_heading
-{    height: 659px;
-    margin-top: 50px;
-    padding: 14px;
-    left: -4px;
-    top: -249px;
-    position: sticky;
-}
-
-.left_heading p1
-{
-    padding: 6px 0px;
-    margin: 50px 0px;
-    display: block;
-}
-.right_description
-{
-        height: 554px;
-        width: 151px;
-        display: inline-block;
-        padding: 8px;
-        right: 13px;
-        top: -192px;
-        bottom: 10px;
-        position: sticky;
 }
 .right_description strong {
     padding: 2px 3px;
 }
 
+strong{
+    font-size: 13px;
+    
+}
+@media(max-width:380px)
+{
+    #left img{
+        width:300px;
+        height: 400px;
+    }
+}
 #quote h1
 {
-    margin: 0px 20px;
-    font-size: 20px;
+    margin: 0px 10px;
+    font-size: 17px;
 }
-footer {
-    margin: -15px 1px;
+.container2 #quote h1
+{
+    padding:10px;
 }
 footer .box3 img
 {
@@ -176,7 +114,7 @@ footer .box3 img
 .container2
 {
     background-color: black;
-    height: 209px;
+    height: 145px;
     font-size: 13px;
     font-family: 'Baloo Bhai 2', cursive;
-}
+} 

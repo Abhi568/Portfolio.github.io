@@ -1,20 +1,8 @@
-
-#navbar
+*
 {
-    flex-direction: column;
-    height: 130px;
-}
-#navbar .box1 , .box2
-{
-margin: 1px auto;
-}
-#navbar a
-{
-    font-size: 20px;
-}
-.box1
-{
-    margin:-10px auto;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 h1{
     font-size: 23px;
@@ -22,47 +10,54 @@ h1{
 strong
 {
     color: violet;
-    font-size: 17px;
+    font-size: 13px;
     padding-left: 10px;
 }
+
 .description
 {
     flex-direction: column;
     padding: 5px;
-    font-size: 17spx;
+    margin: 0px 10px;
+    height: auto;
+    font-size: 13px;
 }
 
 .description p{
     padding: 2px;
-    font-size: 19spx;
+    font-size: 13px;
 
 }
-#project-container
+@media(max-width:370px)
 {
-    height: 5556px;
+    #project-container .project1 img{
+        height: 190px;
+        width: 250px;
+        margin:8px;
+    }
 }
-#project-container .project1
+#head1
 {
-    margin: 5px;
-    height: 1527px; 
-    width: 330px;
+    margin-top: 30px;
 }
 
-#project-container::before
-{
-    height: 5611px; 
-}
 .heading , #head1
 {
     transition: all 1s ease-in-out;
 }
+
 .heading:hover , #head1:hover{
 transform: translateX(40px);
 }
+
 #project-container .project1 img{
-    height: 160px;
-    width: 200px;
     border-radius:5px;
+}
+footer .box3
+{
+    height: 50px;
+    width: 50px;
+    margin: 0px 10px;
 }
 footer .box3 img
 {

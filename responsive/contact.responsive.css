@@ -1,19 +1,4 @@
-#navbar
-{
-    flex-direction: column;
-    height: 130px;
-}
-#navbar .box1 , .box2
-{
-margin: 1px auto;
-}
-.box1
-{
-    margin:-10px auto;
-}
-#navbar a{
-    font-size: 20px;
-}
+
 #profile-container #logo
 
 {
@@ -60,19 +45,19 @@ margin: 1px auto;
 }
 #profile-container
 {
-    height: 500px;
+    height: 600px;
     
 }
 #profile-container::before
 {
-    height: 550px;
+    height: 650px;
 }
 
 h2
 {
     padding: 3px 10px;
     font-family: 'Satisfy', cursive;
-    font-size: 23px;
+    font-size: 13px;
 }
 h1
 {
@@ -80,7 +65,10 @@ h1
     font-size: 23px;
 }
 
-
+footer 
+{
+    height: 50px;
+}
 footer .box3 img
 {
     height: 30px;
