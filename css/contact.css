@@ -32,7 +32,8 @@ text-decoration: none;
     display: none;
 }
 
-.navbar {
+.navbar 
+{
     color: white;
     margin: 0px 60px;
     background-color: rgb(54, 52, 52);
