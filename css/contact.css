@@ -251,9 +251,9 @@ footer .box3 img
     width: 40px;
     margin: 10px 30px;
 }
+
 footer img:hover
 {
     border: 3px blue solid;
-    border-radius: 50%;
-    
+    border-radius: 50%; 
 }
