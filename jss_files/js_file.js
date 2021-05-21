@@ -13,8 +13,6 @@ function click2() {
     }
     window.onload = function() {
     window.addEventListener('load', check, false);
-    // document.getElementById("mypic").style.opacity=1
     
   }
-
 }
