@@ -1,6 +1,5 @@
 
 function click2() {
-    // conso
     console.log("isenter",document.getElementById("click1").checked);
     if (document.getElementById("click1").checked == false) {
         let inputs = document.getElementById("click1");
