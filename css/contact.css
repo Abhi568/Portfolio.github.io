@@ -75,7 +75,8 @@ a
     background-color: white;
 }
 
-@media(max-width:1000px) {
+@media(max-width:1000px)
+{
     #first {
         top: 52px;
         width: 100%;
@@ -127,6 +128,7 @@ a
     align-items: center;
     color: white;
 }
+
 #profile-container::before
 {
     content: "";
@@ -140,8 +142,8 @@ a
     opacity: 0.9;
     
 }
-#profile-container #logo
 
+#profile-container #logo
 {
     height: 200px;
     width: 200px;
@@ -197,6 +199,7 @@ a
         transform: rotate3d();
     }
 }
+
 #profile-container .bottom
 {
     display:flex;
@@ -205,12 +208,14 @@ a
     align-items: center;
     margin-top:30px;  
 }
+
 #profile-container .bottom  img
 {
     height: 28px;
     width: 35px;
     margin-left: 10px;
 }
+
 #profile-container .image 
 {
     display: flex;
